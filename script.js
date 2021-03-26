@@ -10,7 +10,7 @@ function getName (one, twoo, three) {
         alert(getNumber + three);
     } else if (getNumber >= 5 && getNumber <= 20) {
         alert(getNumber + twoo);
-    } else if (getNumber % 10 === 2) {
+    } else if (getNumber % 10 === 2) { 
         alert(getNumber + three);
     } else if (getNumber % 10 === 3) {
         alert(getNumber + three);
@@ -24,3 +24,8 @@ function getName (one, twoo, three) {
 }
 
 getName(' Вика',' Вик',' Вики');
+
+// я хотела несколько условий совместить, но в одну строку они не работали
+
+
+
